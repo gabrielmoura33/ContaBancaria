@@ -37,10 +37,7 @@ public class PessoaFIsica extends Pessoa {
         Conta conta;
         conta = new Conta(numeroConta,pessoa, saldo,banco,tipo);
         System.out.println("Numero Da Conta: " + numeroConta);
-        ArquivoTextoEscrita arq = new ArquivoTextoEscrita();
-        arq.abrirArquivo(banco.getNome().replace(" ", "") + ".txt");
-        arq.escrever("\n" + numeroConta + banco.nome + ";" + pessoa.getNome() + ";" + pessoa.getCpf() + ";" + "Saldo: " + saldo.getSaldoTotal() + " ; " + "Tipo de Pessoa: " + tipo);
-        arq.fecharArquivo();
+
         return conta;
     }
 }

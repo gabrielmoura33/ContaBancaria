@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public abstract class Pessoa {
     protected String endereco;
 

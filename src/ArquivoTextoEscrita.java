@@ -30,7 +30,7 @@ public class ArquivoTextoEscrita {
     public void escrever(String textoEntrada) {
 
         try {
-            saida.write(textoEntrada + "\\n\\r");
+            saida.write(textoEntrada + "\n\r");
             saida.newLine();
         }
         catch (IOException excecao){

@@ -26,10 +26,6 @@ public class PessoaJuridica extends Pessoa {
         Conta conta;
         conta = new Conta(numeroConta,pessoa, saldo,banco,tipo);
         System.out.println("Numero Da Conta: " + numeroConta);
-        ArquivoTextoEscrita arq = new ArquivoTextoEscrita();
-        arq.abrirArquivo(banco.getNome().replace(" ", "") + ".txt");
-        arq.escrever(numeroConta + banco.nome + ";" + pessoa.getRazaoSocial() + ";" + pessoa.getCnpj() + ";" + "Saldo: " + saldo + " ; " + "Tipo de Pessoa: " + tipo);
-        arq.fecharArquivo();
         return conta;
     }
 }

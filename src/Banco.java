@@ -7,6 +7,7 @@ public class Banco {
 
     public Banco(String nome) {
         this.nome = nome;
+        nome = nome.replace(" ", "");
         Random rand = new Random();
         this.numero = rand.nextInt(1800);
         ArquivoTextoEscrita arq = new ArquivoTextoEscrita();

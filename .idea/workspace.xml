@@ -2,12 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0a93542-af06-48d5-bc12-1423ee09db8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BancoDoBrasil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BancoItau.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ContaBancaria/BancoDoBrasil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ContaBancaria/BancoItau.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ContaBancaria/Aplicacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ContaBancaria/Aplicacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ContaBancaria/ArquivoTextoEscrita.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ContaBancaria/ArquivoTextoEscrita.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ContaBancaria/ArquivoTextoLeitura.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ContaBancaria/ArquivoTextoLeitura.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ContaBancaria/Banco.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ContaBancaria/Banco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ContaBancaria/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ContaBancaria/Conta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ContaBancaria/META-INF/ContaBancaria.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ContaBancaria/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ContaBancaria/Pessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ContaBancaria/PessoaFIsica.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ContaBancaria/PessoaFIsica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ContaBancaria/PessoaJuridica.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ContaBancaria/PessoaJuridica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ContaBancaria/Saldo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ContaBancaria/Saldo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Aplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aplicacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArquivoTextoEscrita.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArquivoTextoEscrita.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Banco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PessoaFIsica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PessoaFIsica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PessoaJuridica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PessoaJuridica.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +48,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="Aplicacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aplicacao" />
+      <module name="ContaBancaria" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Aplicacao" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -53,5 +80,33 @@
       <screen x="0" y="23" width="1280" height="713" />
     </state>
     <state x="453" y="66" key="#com.intellij.ide.util.MemberChooser/0.23.1280.713@0.23.1280.713" timestamp="1587060582618" />
+    <state width="1280" height="180" key="GridCell.Tab.0.bottom" timestamp="1587075506616">
+      <screen x="0" y="23" width="1280" height="708" />
+    </state>
+    <state width="1280" height="180" key="GridCell.Tab.0.bottom/0.23.1280.708@0.23.1280.708" timestamp="1587075506616" />
+    <state width="1280" height="180" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1587075160397" />
+    <state width="1280" height="180" key="GridCell.Tab.0.bottom/0.23.1280.713@0.23.1280.713" timestamp="1587074357893" />
+    <state width="1280" height="180" key="GridCell.Tab.0.center" timestamp="1587075506613">
+      <screen x="0" y="23" width="1280" height="708" />
+    </state>
+    <state width="1280" height="180" key="GridCell.Tab.0.center/0.23.1280.708@0.23.1280.708" timestamp="1587075506613" />
+    <state width="1280" height="180" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1587075160396" />
+    <state width="1280" height="180" key="GridCell.Tab.0.center/0.23.1280.713@0.23.1280.713" timestamp="1587074357891" />
+    <state width="1280" height="180" key="GridCell.Tab.0.left" timestamp="1587075506612">
+      <screen x="0" y="23" width="1280" height="708" />
+    </state>
+    <state width="1280" height="180" key="GridCell.Tab.0.left/0.23.1280.708@0.23.1280.708" timestamp="1587075506612" />
+    <state width="1280" height="180" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1587075160395" />
+    <state width="1280" height="180" key="GridCell.Tab.0.left/0.23.1280.713@0.23.1280.713" timestamp="1587074357890" />
+    <state width="1280" height="180" key="GridCell.Tab.0.right" timestamp="1587075506615">
+      <screen x="0" y="23" width="1280" height="708" />
+    </state>
+    <state width="1280" height="180" key="GridCell.Tab.0.right/0.23.1280.708@0.23.1280.708" timestamp="1587075506615" />
+    <state width="1280" height="180" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1587075160396" />
+    <state width="1280" height="180" key="GridCell.Tab.0.right/0.23.1280.713@0.23.1280.713" timestamp="1587074357892" />
+    <state x="305" y="26" width="670" height="676" key="search.everywhere.popup" timestamp="1587071951851">
+      <screen x="0" y="23" width="1280" height="713" />
+    </state>
+    <state x="305" y="26" width="670" height="676" key="search.everywhere.popup/0.23.1280.713@0.23.1280.713" timestamp="1587071951851" />
   </component>
 </project>

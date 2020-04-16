@@ -22,13 +22,13 @@ public class PessoaJuridica extends Pessoa {
     public Conta abrirConta(Banco banco, String tipo,PessoaJuridica pessoa){
         Saldo saldo = new Saldo();
         Random rand = new Random();
-        int numeroConta = rand.nextInt(1500);
+        int numeroConta = rand.nextInt(1500) + 10000;
         Conta conta;
         conta = new Conta(numeroConta,pessoa, saldo,banco,tipo);
         System.out.println("Numero Da Conta: " + numeroConta);
         ArquivoTextoEscrita arq = new ArquivoTextoEscrita();
-        arq.abrirArquivo("Conta.txt");
-        arq.escrever(numeroConta + banco.nome + ";" + pessoa.getRazaoSocial() + ";" + pessoa.getCnpj() + ";" + "Saldo: " + conta.saldo + " ; " + "Tipo de Pessoa: " + tipo);
+        arq.abrirArquivo(banco.getNome().replace(" ", "") + ".txt");
+        arq.escrever(numeroConta + banco.nome + ";" + pessoa.getRazaoSocial() + ";" + pessoa.getCnpj() + ";" + "Saldo: " + saldo + " ; " + "Tipo de Pessoa: " + tipo);
         arq.fecharArquivo();
         return conta;
     }

@@ -8,17 +8,35 @@ public class Aplicacao {
         int escolha = 0;
             do {
                 System.out.println("Escolha uma opcao");
-                System.out.println("1 - Cadastrar um novo banco");
+                System.out.println("1 - Escolher um Banco");
                 System.out.println("2 - Cadastrar nova Conta");
                 System.out.println("3 - Sair");
                 escolha = entrada.nextInt();
                 if (escolha == 1)
                 {
-                    System.out.println("Digite o nome do banco");
-                    String bancoNome = entrada.next();
-                    Banco banco = new Banco(bancoNome);
-                    bancoEscolhido = banco;
-
+                    System.out.println("Escolha uma opcao");
+                    System.out.println("1 - Banco do Brasil");
+                    System.out.println("2 - Banco Itau");
+                    System.out.println("3 - Cadastrar novo Banco");
+                    int escolhaBanco = entrada.nextInt();
+                    switch (escolhaBanco){
+                        case 1:
+                            System.out.println("Banco do Brasil");
+                            Banco bancoBB = new Banco("Banco do Brasil");
+                            bancoEscolhido = bancoBB;
+                            break;
+                        case 2:
+                            System.out.println("Banco Itau");
+                            Banco bancoItau = new Banco("Banco Itau");
+                            bancoEscolhido = bancoItau;
+                            break;
+                        case 3:
+                            System.out.println("Digite o nome do banco");
+                            String bancoNome = entrada.next();
+                            Banco banco = new Banco(bancoNome);
+                            bancoEscolhido = banco;
+                            break;
+                    }
                 }else if (escolha == 2){
                     System.out.println("Digite Seu CPF/CNPJ");
                     String cpfCpnj = entrada.next();
